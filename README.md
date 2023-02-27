@@ -2,9 +2,9 @@
 Giải thích thuật toán:
   - Bây giờ ta muốn phân tích 1 số X thành các luỹ thừa bậc n ta thực hiện như sau:
     + Ta sẽ xuất phát từ số 0, giả sử X = 0^n + A (tức là xét từ số 0 xem X có thể phân tích được thành dãy như đề bài yêu cầu mà trong đó có 1 số hạng là       số 0^n hay không)
-          * Khi này A phải có dạng A = 1^n + B (tức là không thể có 0^n vì các số hạng khác nhau) hay X - 0^n = 1^n + B
-          * Khi đó B lại phải có dạng B = 2^n + C hay X - 0^n - 1^n = 2^n + C
-          * Cứ tiếp như vậy cho đến khi vế trái ( X - ... -...) <= 0, nếu vế trái bằng 0 thì số 0 ta xét là thoả mãn (biến đếm +1), nếu nhỏ hơn 0 thì không             làm gì cả mà xét sang số 1
+          + Khi này A phải có dạng A = 1^n + B (tức là không thể có 0^n vì các số hạng khác nhau) hay X - 0^n = 1^n + B
+          + Khi đó B lại phải có dạng B = 2^n + C hay X - 0^n - 1^n = 2^n + C
+          + Cứ tiếp như vậy cho đến khi vế trái ( X - ... -...) <= 0, nếu vế trái bằng 0 thì số 0 ta xét là thoả mãn (biến đếm +1), nếu nhỏ hơn 0 thì không             làm gì cả mà xét sang số 1
     + Tiếp theo là đến số 1, ta lặp lại các bước như vừa rồi xem có cách nào để phân tích số X thành tổng các luỹ thừa mà trong đó có 1 số hạng là 1^n hay       không
     + ...... tiếp tục xét như vậy đến số X (tức là xét sự xuất hiện của số hạng X^n)
 -------------------
