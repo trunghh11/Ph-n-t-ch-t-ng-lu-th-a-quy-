@@ -18,7 +18,7 @@ Giải thích thuật toán:
       if (X>0) {
         for (i = k+1; i <= X; i++){
           dem(X - pow(i,n) , n , i);
-          // VD lượt đầu: gọi lại hàm dem với giá trị X mới là A (A được định nghĩa như bên trên), giá trị xuất phát mới là 1 (i=1)//
+          // VD lượt đầu: gọi lại hàm dem với giá trị X mới là A (A được định nghĩa như bên trên), giá trị xuất phát mới là 1 (i=1)
         } 
       }
     }
