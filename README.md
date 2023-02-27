@@ -1,1 +1,1 @@
-# Phan-tich-tong-luy-thua-(de-quy)
+# Phân tích tổng luỹ thừa (đệ quy)
