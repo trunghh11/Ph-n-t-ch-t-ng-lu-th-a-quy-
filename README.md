@@ -10,7 +10,7 @@ Giải thích thuật toán:
 -------------------
 *NOTE: Các dãy được xét rồi sẽ không bị xuất hiện lại do tính chất xét tăng dần, vd 13 = 2^2 + 3^2 thì nếu xét qua số 2 ta sẽ có 1 trường hợp nhưng xét     đến số 3 sẽ không có trường hợp nào cả vì sẽ không xét ngược lại 2
 -------------------
-  ---> Tất cả các thao tác trên, ta có thể viết dưới dạng công thức (theo kiểu vòng lặp):
+  ---> Tất cả các thao tác trên, ta có thể viết dưới dạng công thức (theo kiểu đệ quy):
     Ta tạo ra 1 biến toàn cục chịu trách nhiệm lưu trữ giá trị đếm hiện tại (nếu dùng biến cục bộ thì sẽ bị khai báo lại và mất dữ liệu) và 1 hàm dem(X,n, k) với X là số cần đếm cách phân tích thành tổng luỹ thừa bậc n, n là bậc n, k là số xuất phát để phân tích, hàm dem sẽ có cú pháp:
     
     dem(int X, int n, int k) {
